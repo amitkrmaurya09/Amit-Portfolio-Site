@@ -1,0 +1,77 @@
+body{
+    background-color: lightskyblue;
+}
+.navigation {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px 0px 50px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    background-color: azure;
+}
+
+.name{
+    flex: 1.5;
+    margin-left: 10%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.nav-bar{
+    flex: 2.5;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+.menu-toggle{
+    display: none;
+    cursor: pointer;
+    margin-top: 11px;
+}
+.menu-toggle span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+    margin: 5px 0;
+    border-radius: 15px;
+}
+.block {
+    position: relative;
+    height: 80vh;
+    background-color: lightcyan;
+    border-radius: 50px;
+    margin: 10px 50px 40px 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name h3{
+    margin:  0;
+    padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .nav-bar {
+        display: none; /* Hide the navigation links */
+    }
+    
+    .menu-toggle {
+        display: block; /* Display the menu toggle */
+    }
+
+    .nav-bar.active {
+        display: block; /* Display the navigation links when menu is active */
+    }
+}
