@@ -13,6 +13,9 @@ body{
     margin: 40px 50px 0px 50px;
     border-radius: 12px;
 }
+a:hover{
+    border-bottom: 4px solid blue;
+}
 
 .name{
     flex: 1.5;
@@ -56,8 +59,16 @@ body{
 
 }
 .center-align{
+    display: inline-block;
    margin: 170px 20px 100px 200px;
-   background-image: url(./images/14723810_job545-wit-31.jpg);
+   background-color: rgb(166, 190, 190);
+   padding: 15px;
+   border-radius: 10px;
+   height: fit-content;
+   opacity: 40%;
+}
+ h3 {
+    opacity: 100%;
 }
 
 img{
