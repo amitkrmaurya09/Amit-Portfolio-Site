@@ -8,8 +8,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;    
-    height: 80vh;
-    
+    height: 100vh; 
 }
 main{
     flex: 1;
